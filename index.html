@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>8th Pay Commission Salary Calculator</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="calculator-container">
+    <h1>8th Pay Commission Salary Calculator</h1>
+    <p>Calculate your salary based on the 8th Pay Commission guidelines.</p>
+
+    <div class="input-section">
+      <label for="basic-pay">Basic Pay:</label>
+      <input type="number" id="basic-pay" placeholder="Enter your basic pay">
+    </div>
+
+    <div class="input-section">
+      <label for="grade-pay">Grade Pay:</label>
+      <input type="number" id="grade-pay" placeholder="Enter your grade pay">
+    </div>
+
+    <div class="input-section">
+      <label for="da">Dearness Allowance (DA %):</label>
+      <input type="number" id="da" placeholder="Enter DA percentage">
+    </div>
+
+    <div class="input-section">
+      <label for="hra">House Rent Allowance (HRA %):</label>
+      <input type="number" id="hra" placeholder="Enter HRA percentage">
+    </div>
+
+    <button id="calculate-btn">Calculate Salary</button>
+
+    <div class="result-section">
+      <h2>Results:</h2>
+      <p><strong>Total Salary:</strong> <span id="total-salary">-</span></p>
+    </div>
+
+    <div class="instructions">
+      <h3>How to Use:</h3>
+      <ol>
+        <li>Enter your <strong>Basic Pay</strong> (e.g., 50000).</li>
+        <li>Enter your <strong>Grade Pay</strong> (e.g., 5400).</li>
+        <li>Enter the <strong>Dearness Allowance (DA)</strong> percentage (e.g., 17).</li>
+        <li>Enter the <strong>House Rent Allowance (HRA)</strong> percentage (e.g., 24).</li>
+        <li>Click the <strong>"Calculate Salary"</strong> button.</li>
+        <li>Your <strong>Total Salary</strong> will be displayed.</li>
+      </ol>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
